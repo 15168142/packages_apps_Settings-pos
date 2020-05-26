@@ -17,4 +17,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">PixelOS-weergawe</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">Helderheidskuifknop</string>
+    <string name="status_bar_brightness_slider_summary">Verstel die helderheid van vinnige instellings</string>
 </resources>

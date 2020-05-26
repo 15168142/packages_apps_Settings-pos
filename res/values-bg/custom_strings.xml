@@ -17,4 +17,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">Версия на PixelOS</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">Плъзгач за яркост</string>
+    <string name="status_bar_brightness_slider_summary">Настройка на яркост от бързи настройки</string>
+    <string name="status_bar_brightness_slider_show_never">Никога не показвай</string>
+    <string name="status_bar_brightness_slider_show_expanded">Показване при разгъване</string>
+    <string name="status_bar_brightness_slider_show_always">Винаги показвай</string>
 </resources>

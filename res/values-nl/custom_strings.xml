@@ -17,4 +17,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">PixelOS-versie</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">Schuifregelaar helderheid</string>
+    <string name="status_bar_brightness_slider_summary">Helderheid aanpassen vanuit snelle instellingen</string>
+    <string name="status_bar_brightness_slider_show_never">Nooit weergeven</string>
+    <string name="status_bar_brightness_slider_show_expanded">Toon wanneer uitgevouwen</string>
+    <string name="status_bar_brightness_slider_show_always">Altijd weergeven</string>
 </resources>

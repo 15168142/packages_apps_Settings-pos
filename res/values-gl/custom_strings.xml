@@ -17,4 +17,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">Versión de PixelOS</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">Barra de brillo</string>
+    <string name="status_bar_brightness_slider_summary">Axustar o brillo dende os axustes rápidos</string>
+    <string name="status_bar_brightness_slider_show_never">Non amosar nunca</string>
+    <string name="status_bar_brightness_slider_show_expanded">Amosar ao expandir</string>
+    <string name="status_bar_brightness_slider_show_always">Amosar sempre</string>
 </resources>

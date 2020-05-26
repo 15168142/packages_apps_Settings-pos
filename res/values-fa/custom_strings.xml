@@ -17,4 +17,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">‏نسخهٔ PixelOS</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">نوار روشنایی</string>
+    <string name="status_bar_brightness_slider_summary">تنظیم روشنایی از طریق تنظیمات سریع</string>
+    <string name="status_bar_brightness_slider_show_never">نمایش نده</string>
+    <string name="status_bar_brightness_slider_show_expanded">وقتی بزرگ شد نمایش دهید</string>
+    <string name="status_bar_brightness_slider_show_always">همیشه نمایش بده</string>
+    <string name="status_bar_brightness_slider_position_title">موقعیت کشویی روشنایی</string>
+    <string name="status_bar_brightness_slider_position_top">بالا</string>
+    <string name="status_bar_brightness_slider_position_bottom">پایین</string>
 </resources>

@@ -17,4 +17,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">PixelOS-Version</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">Helligkeitsregler</string>
+    <string name="status_bar_brightness_slider_summary">Helligkeit in den Schnelleinstellungen anpassen</string>
+    <string name="status_bar_brightness_slider_show_never">Niemals anzeigen</string>
+    <string name="status_bar_brightness_slider_show_expanded">Anzeigen wenn erweitert</string>
+    <string name="status_bar_brightness_slider_show_always">Immer anzeigen</string>
+    <string name="status_bar_brightness_slider_position_title">Position des Helligkeitsreglers</string>
+    <string name="status_bar_brightness_slider_position_top">Oben</string>
+    <string name="status_bar_brightness_slider_position_bottom">Unten</string>
 </resources>

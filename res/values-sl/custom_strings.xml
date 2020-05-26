@@ -17,4 +17,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">Različica sistema PixelOS</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">Drsnik za svetlost</string>
+    <string name="status_bar_brightness_slider_summary">Prilagajanje svetlosti iz Hitrih nastavitev</string>
+    <string name="status_bar_brightness_slider_show_never">Nikoli ne pokaži</string>
+    <string name="status_bar_brightness_slider_show_expanded">Pokaži ob razširitvi</string>
+    <string name="status_bar_brightness_slider_show_always">Vedno pokaži</string>
+    <string name="status_bar_brightness_slider_position_title">Položaj drsnika za svetlost</string>
+    <string name="status_bar_brightness_slider_position_top">Zgoraj</string>
+    <string name="status_bar_brightness_slider_position_bottom">Spodaj</string>
 </resources>

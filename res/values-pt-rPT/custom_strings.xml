@@ -17,4 +17,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">Versão do PixelOS</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">Controlo deslizante de luminosidade</string>
+    <string name="status_bar_brightness_slider_summary">Ajustar a luminosidade nas definições rápidas</string>
+    <string name="status_bar_brightness_slider_show_never">Nunca mostrar</string>
+    <string name="status_bar_brightness_slider_show_expanded">Mostrar quando expandida</string>
+    <string name="status_bar_brightness_slider_show_always">Mostrar sempre</string>
+    <string name="status_bar_brightness_slider_position_title">Posição do controlo deslizante do brilho</string>
+    <string name="status_bar_brightness_slider_position_top">Em cima</string>
+    <string name="status_bar_brightness_slider_position_bottom">Em baixo</string>
 </resources>

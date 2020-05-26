@@ -17,4 +17,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">Versiune PixelOS</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">Cursor luminozitate</string>
+    <string name="status_bar_brightness_slider_summary">Reglați luminozitatea din Setările Rapide</string>
+    <string name="status_bar_brightness_slider_show_never">Nu mai arăta</string>
+    <string name="status_bar_brightness_slider_show_expanded">Arată la extindere</string>
+    <string name="status_bar_brightness_slider_show_always">Arată întotdeauna</string>
+    <string name="status_bar_brightness_slider_position_title">Poziție glisor luminozitate</string>
+    <string name="status_bar_brightness_slider_position_top">Sus</string>
+    <string name="status_bar_brightness_slider_position_bottom">Jos</string>
 </resources>

@@ -17,4 +17,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">Έκδοση PixelOS</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">Ρυθμιστικό φωτεινότητας</string>
+    <string name="status_bar_brightness_slider_summary">Ρύθμιση φωτεινότητας από τις Γρήγορες ρυθμίσεις</string>
+    <string name="status_bar_brightness_slider_show_never">Να μην εμφανίζεται ποτέ</string>
+    <string name="status_bar_brightness_slider_show_expanded">Εμφάνιση κατά την επέκταση</string>
+    <string name="status_bar_brightness_slider_show_always">Εμφάνιση πάντα</string>
+    <string name="status_bar_brightness_slider_position_title">Θέση μπάρας φωτεινότητας</string>
+    <string name="status_bar_brightness_slider_position_top">Πάνω</string>
+    <string name="status_bar_brightness_slider_position_bottom">Κάτω</string>
 </resources>

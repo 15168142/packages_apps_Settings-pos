@@ -17,4 +17,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">Verzia PixelOS</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">Posuvník jasu</string>
+    <string name="status_bar_brightness_slider_summary">Nastavenie jasu z panela rýchlych nastavení</string>
+    <string name="status_bar_brightness_slider_show_never">Nikdy nezobrazovať</string>
+    <string name="status_bar_brightness_slider_show_expanded">Zobraziť po rozbalení</string>
+    <string name="status_bar_brightness_slider_show_always">Vždy zobraziť</string>
 </resources>

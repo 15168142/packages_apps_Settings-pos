@@ -17,4 +17,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">PixelOS பதிப்பு</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">ஒளிர்வு நகர்வுகோல்</string>
+    <string name="status_bar_brightness_slider_summary">விரைவு அமைப்புகளிலிருந்து ஒளிர்வை ஒழுங்குபடுத்துக</string>
+    <string name="status_bar_brightness_slider_show_never">ஒருபோதும் காட்டாதே</string>
+    <string name="status_bar_brightness_slider_show_expanded">விரிவாக்கும்போது காட்டுக</string>
+    <string name="status_bar_brightness_slider_show_always">எப்பொழுதும் காட்டுக</string>
+    <string name="status_bar_brightness_slider_position_title">ஒளிர்வு நகர்த்தி நிலை</string>
+    <string name="status_bar_brightness_slider_position_top">மேல்</string>
+    <string name="status_bar_brightness_slider_position_bottom">கீழ்</string>
 </resources>

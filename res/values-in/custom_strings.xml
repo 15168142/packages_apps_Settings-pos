@@ -17,4 +17,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">Versi PixelOS</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">Slider kecerahan</string>
+    <string name="status_bar_brightness_slider_summary">Sesuaikan kecerahan dari setelan cepat</string>
+    <string name="status_bar_brightness_slider_show_never">Jangan pernah tampilkan</string>
+    <string name="status_bar_brightness_slider_show_expanded">Tampilkan ketika diperluas</string>
+    <string name="status_bar_brightness_slider_show_always">Selalu tampilkan</string>
+    <string name="status_bar_brightness_slider_position_top">Atas</string>
+    <string name="status_bar_brightness_slider_position_bottom">Bawah</string>
 </resources>

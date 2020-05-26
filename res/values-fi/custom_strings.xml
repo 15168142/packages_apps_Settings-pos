@@ -17,4 +17,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">PixelOS-versio</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">Kirkkauden säädin</string>
+    <string name="status_bar_brightness_slider_summary">Säädä kirkkautta Pika-asetuksista</string>
+    <string name="status_bar_brightness_slider_show_never">Älä näytä koskaan</string>
+    <string name="status_bar_brightness_slider_show_expanded">Näytä laajennettaessa</string>
+    <string name="status_bar_brightness_slider_show_always">Näytä aina</string>
 </resources>

@@ -17,4 +17,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">PixelOS sürümü</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">Parlaklık kaydırıcı</string>
+    <string name="status_bar_brightness_slider_summary">Hızlı ayarlardan parlaklığı ayarlayın</string>
+    <string name="status_bar_brightness_slider_show_never">Asla gösterme</string>
+    <string name="status_bar_brightness_slider_show_expanded">Genişletildiğinde göster</string>
+    <string name="status_bar_brightness_slider_show_always">Her zaman göster</string>
+    <string name="status_bar_brightness_slider_position_title">Parlaklık kaydırıcısı konumu</string>
+    <string name="status_bar_brightness_slider_position_top">Üst</string>
+    <string name="status_bar_brightness_slider_position_bottom">Alt</string>
 </resources>

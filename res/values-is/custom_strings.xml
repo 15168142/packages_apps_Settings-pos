@@ -17,4 +17,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">PixelOS-útgáfa</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">Sleði fyrir birtustig</string>
+    <string name="status_bar_brightness_slider_summary">Breyta birtustigi úr flýtistillingum</string>
+    <string name="status_bar_brightness_slider_show_never">Aldrei sýna</string>
+    <string name="status_bar_brightness_slider_show_expanded">Sýna þegar útflett</string>
+    <string name="status_bar_brightness_slider_show_always">Sýna alltaf</string>
 </resources>

@@ -16,12 +16,19 @@
 
 package com.android.settings.display
 
+import android.Manifest.permission.WRITE_SECURE_SETTINGS
 import android.Manifest.permission.WRITE_SETTINGS
 import android.content.Context
 import android.hardware.display.DisplayManager
 import android.view.Display
 import com.android.settings.DisplaySettings
 import com.android.settings.R
+import com.android.settings.custom.brightness.BrightnessSliderPositionOption
+import com.android.settings.custom.brightness.BrightnessSliderShowOption
+import com.android.settings.custom.brightness.getBrightnessSliderPosition
+import com.android.settings.custom.brightness.getBrightnessSliderShow
+import com.android.settings.custom.brightness.setBrightnessSliderPosition
+import com.android.settings.custom.brightness.setBrightnessSliderShow
 import com.android.settings.flags.Flags
 import com.android.settingslib.metadata.ProvidePreferenceScreen
 import com.android.settingslib.metadata.UI_ONLY_PREFERENCE
@@ -29,6 +36,8 @@ import com.android.settingslib.metadata.preferencesapi.PreferencesApiScreen
 import com.android.settingslib.metadata.preferencesapi.category.Category
 import com.android.settingslib.metadata.preferencesapi.preconditions.Allowed
 import com.android.settingslib.metadata.preferencesapi.preconditions.HardwareUnsupported
+import com.android.settingslib.metadata.preferencesapi.preconditions.InvalidPreference
+import com.android.settingslib.metadata.preferencesapi.types.CustomEnum
 import com.android.settingslib.metadata.preferencesapi.types.PercentageInt
 import kotlin.math.roundToInt
 
@@ -79,6 +88,52 @@ class DisplayApiScreen :
             set {
                 permissions(WRITE_SETTINGS)
                 execute { value -> context.setDefaultDisplayBrightnessLevel(value) }
+            }
+        }
+
+        preference(
+            key = "qs_show_brightness_slider",
+            purpose = R.string.brightness_slider_stub,
+            type =
+                CustomEnum(
+                    BrightnessSliderShowOption::class,
+                    R.string.brightness_slider_stub,
+                ),
+        ) {
+            get { execute { context.getBrightnessSliderShow() } }
+
+            set {
+                permissions(WRITE_SECURE_SETTINGS)
+                execute { value -> context.setBrightnessSliderShow(value) }
+            }
+        }
+
+        preference(
+            key = "qs_brightness_slider_position",
+            purpose = R.string.brightness_slider_stub,
+            type =
+                CustomEnum(
+                    BrightnessSliderPositionOption::class,
+                    R.string.brightness_slider_stub,
+                ),
+        ) {
+            preconditions(R.string.brightness_slider_stub) {
+                if (context.getBrightnessSliderShow() == BrightnessSliderShowOption.NEVER) {
+                    InvalidPreference(
+                        otherPreferenceScreenKey = KEY,
+                        otherPreferenceKey = "qs_show_brightness_slider",
+                        reason = R.string.brightness_slider_stub,
+                    )
+                } else {
+                    Allowed
+                }
+            }
+
+            get { execute { context.getBrightnessSliderPosition() } }
+
+            set {
+                permissions(WRITE_SECURE_SETTINGS)
+                execute { value -> context.setBrightnessSliderPosition(value) }
             }
         }
     }

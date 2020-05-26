@@ -17,4 +17,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">Versioni i PixelOS</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">Niveli i ndriçimit</string>
+    <string name="status_bar_brightness_slider_summary">Ndrysho ndriçimin tek Cilësime e Shpejta</string>
+    <string name="status_bar_brightness_slider_show_never">Mos e tregoni asnjëherë</string>
+    <string name="status_bar_brightness_slider_show_expanded">Trego kur zgjerohet</string>
+    <string name="status_bar_brightness_slider_show_always">Trego gjithmonë</string>
+    <string name="status_bar_brightness_slider_position_title">Pozicioni i rrëshqitësit të shkëlqimit</string>
+    <string name="status_bar_brightness_slider_position_top">Sipër</string>
+    <string name="status_bar_brightness_slider_position_bottom">Poshtë</string>
 </resources>

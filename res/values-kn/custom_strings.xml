@@ -17,4 +17,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">PixelOS ಆವೃತ್ತಿ</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">ಪ್ರಖರತೆ ಜಾರುಫಲಕ</string>
+    <string name="status_bar_brightness_slider_summary">ತ್ವರಿತ ಆಯ್ಕೆಗಳಿಂದ ಪ್ರಖರತೆ ಸರಿಪಡಿಸು</string>
 </resources>

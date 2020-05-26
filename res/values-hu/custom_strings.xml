@@ -17,4 +17,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">PixelOS verziója</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">Fényerő csúszka</string>
+    <string name="status_bar_brightness_slider_summary">Fényerő állítása a Gyors Beállításokról</string>
+    <string name="status_bar_brightness_slider_show_never">Sose jelenítse meg</string>
+    <string name="status_bar_brightness_slider_show_expanded">Kiterjesztéskor jelenítse meg</string>
+    <string name="status_bar_brightness_slider_show_always">Mindig jelenítse meg</string>
+    <string name="status_bar_brightness_slider_position_title">A Fényerőcsúszka pozíciója</string>
+    <string name="status_bar_brightness_slider_position_top">Felül</string>
+    <string name="status_bar_brightness_slider_position_bottom">Alul</string>
 </resources>

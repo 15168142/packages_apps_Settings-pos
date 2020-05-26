@@ -17,4 +17,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">Wersja PixelOS</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">Suwak jasności</string>
+    <string name="status_bar_brightness_slider_summary">Dostosuj jasność z Szybkich Ustawień</string>
+    <string name="status_bar_brightness_slider_show_never">Nigdy nie pokazuj</string>
+    <string name="status_bar_brightness_slider_show_expanded">Pokazuj po rozwinięciu</string>
+    <string name="status_bar_brightness_slider_show_always">Pokazuj zawsze</string>
+    <string name="status_bar_brightness_slider_position_title">Pozycja suwaka jasności</string>
+    <string name="status_bar_brightness_slider_position_top">U góry</string>
+    <string name="status_bar_brightness_slider_position_bottom">Na spodzie</string>
 </resources>

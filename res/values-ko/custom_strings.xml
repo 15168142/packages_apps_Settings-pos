@@ -17,4 +17,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">PixelOS 버전</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">밝기 조절 슬라이더</string>
+    <string name="status_bar_brightness_slider_summary">빠른 설정에서 밝기 조절</string>
+    <string name="status_bar_brightness_slider_show_never">표시 안 함</string>
+    <string name="status_bar_brightness_slider_show_expanded">펼치면 표시</string>
+    <string name="status_bar_brightness_slider_show_always">항상 표시</string>
+    <string name="status_bar_brightness_slider_position_title">밝기 슬라이더 위치</string>
+    <string name="status_bar_brightness_slider_position_top">위쪽</string>
+    <string name="status_bar_brightness_slider_position_bottom">아래쪽</string>
 </resources>

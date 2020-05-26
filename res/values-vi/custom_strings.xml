@@ -17,4 +17,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">Phiên bản PixelOS</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">Thanh trượt độ sáng</string>
+    <string name="status_bar_brightness_slider_summary">Điều chỉnh độ sáng từ Cài đặt nhanh</string>
+    <string name="status_bar_brightness_slider_show_never">Luôn ẩn</string>
+    <string name="status_bar_brightness_slider_show_expanded">Hiển thị khi được mở rộng</string>
+    <string name="status_bar_brightness_slider_show_always">Luôn hiện</string>
+    <string name="status_bar_brightness_slider_position_title">Vị trí thanh trượt độ sáng</string>
+    <string name="status_bar_brightness_slider_position_top">Trên</string>
+    <string name="status_bar_brightness_slider_position_bottom">Dưới</string>
 </resources>

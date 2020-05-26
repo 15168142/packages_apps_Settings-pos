@@ -17,4 +17,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">PixelOS-version</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">Lysstyrke-skyder</string>
+    <string name="status_bar_brightness_slider_summary">Justér lysstyrke fra Hurtig-Indstillinger</string>
+    <string name="status_bar_brightness_slider_show_never">Vis aldrig</string>
 </resources>

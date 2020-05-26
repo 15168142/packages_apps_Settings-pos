@@ -17,4 +17,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, status item label -->
     <string name="pixelos_version">PixelOS 版本</string>
+
+    <!-- Brightness slider -->
+    <string name="status_bar_brightness_slider_title">亮度滑块</string>
+    <string name="status_bar_brightness_slider_summary">在快速设置中调节亮度</string>
+    <string name="status_bar_brightness_slider_show_never">从不显示</string>
+    <string name="status_bar_brightness_slider_show_expanded">展开时显示</string>
+    <string name="status_bar_brightness_slider_show_always">总是显示</string>
+    <string name="status_bar_brightness_slider_position_title">亮度滑块位置</string>
+    <string name="status_bar_brightness_slider_position_top">顶部</string>
+    <string name="status_bar_brightness_slider_position_bottom">底部</string>
 </resources>
