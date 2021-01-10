@@ -261,6 +261,14 @@
             android:title="@string/tap_to_wake"
             android:summary="@string/tap_to_wake_summary"/>
 
+        <!-- Double tap to check phone -->
+        <com.android.settings.custom.preference.SecureSettingSwitchPreference
+            android:key="doze_trigger_doubletap"
+            android:title="@string/ambient_display_title"
+            android:summary="@string/ambient_display_summary"
+            android:defaultValue="false"
+            android:dependency="tap_to_wake" />
+
         <!-- Double tap to sleep -->
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="double_tap_sleep_gesture"
