@@ -492,4 +492,7 @@
     <string name="spoof_show_system">Show system apps</string>
     <string name="spoof_filter">Filter</string>
     <string name="spoof_no_apps">No matching apps</string>
+
+    <!-- PixelOS, いろは edition version -->
+    <string name="pixelos_version">PixelOS version</string>
 </resources>
