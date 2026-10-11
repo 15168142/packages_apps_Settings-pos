@@ -79,6 +79,7 @@
 
     <Preference
         android:key="charging_control"
+        android:order="0"
         android:title="@string/charging_control_title"
         android:summary="@string/charging_control_summary"
         android:fragment="com.android.settings.lineage.health.ChargingControlSettings"
