@@ -60,9 +60,11 @@
             android:persistent="false" />
     </PreferenceCategory>
 
-    <Preference
-        android:key="spoofing_reset_defaults"
-        android:title="@string/spoofing_reset_defaults_title"
-        android:persistent="false" />
+    <com.android.settingslib.widget.UntitledPreferenceCategory>
+        <Preference
+            android:key="spoofing_reset_defaults"
+            android:title="@string/spoofing_reset_defaults_title"
+            android:persistent="false" />
+    </com.android.settingslib.widget.UntitledPreferenceCategory>
 
 </PreferenceScreen>
